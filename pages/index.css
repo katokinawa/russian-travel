@@ -25,3 +25,12 @@
 @import url(../blocks/place/__url-heading/place__url-heading.css);
 @import url(../blocks/place/__link/place__link.css);
 @import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/overlay/overlay.css);
+@import url(../blocks/overlay/overlay__title/overlay__title.css);
+@import url(../blocks/overlay/overlay__subtitle/overlay__subtitle.css);
+@import url(../blocks/overlay/overlay__background/overlay__background.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__links/footer__links.css);

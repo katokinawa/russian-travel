@@ -1,0 +1,9 @@
+.overlay {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 200px;
+  padding-bottom: 64px;
+  z-index: 1;
+}

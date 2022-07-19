@@ -1,0 +1,12 @@
+.overlay__title {
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1.1;
+  text-align: center;
+  margin: 33px 16px 16px;
+  white-space: pre-line;
+  z-index: 3;
+}

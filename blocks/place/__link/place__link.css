@@ -9,3 +9,8 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.2;
+}
+
+.place__link:hover {
+  opacity: .8;
+}
