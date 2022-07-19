@@ -2,7 +2,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 0;
-  height: 50px;
-  z-index: 1;
+  padding: 16px 16px 48px 16px;
 }

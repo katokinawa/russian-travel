@@ -9,5 +9,5 @@
 }
 
 .place__paragraph:last-child {
-  margin: 32px 16px 66px;
+  margin: 32px 16px 0;
 }
