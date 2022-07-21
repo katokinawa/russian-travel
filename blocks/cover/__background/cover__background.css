@@ -1,4 +1,4 @@
-.overlay__background {
+.cover__background {
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
   width: 100%;
@@ -7,9 +7,8 @@
   top: 0;
   left: 0;
   opacity: .8;
-  z-index: 2;
 }
 
-.overlay__background:hover {
+.cover__background:hover {
   opacity: .3;
 }

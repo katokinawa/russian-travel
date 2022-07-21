@@ -1,11 +1,9 @@
-.overlay__subtitle {
+.cover__subtitle {
   margin: 0;
   padding: 0;
   color: #FFF;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.1;
+  line-height: 16px;
   text-align: center;
-  margin: 0 16px 33px;
-  z-index: 3;
 }

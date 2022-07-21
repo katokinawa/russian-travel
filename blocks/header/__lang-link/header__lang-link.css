@@ -5,7 +5,7 @@
   color: #FFF;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 20px;
 }
 .header__lang-link:nth-child(1) {
   text-decoration-line: underline;
