@@ -10,4 +10,8 @@
 * до 425 пикселей — мобильные устройства.
 
 Подход при адаптиве: mobile-first.
+
 Проект является информативным.
+
+Ссылка на GitHub Pages:
+https://katokinawa.github.io/russian-travel/index.html

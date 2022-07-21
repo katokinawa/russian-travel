@@ -1,5 +1,3 @@
 .place__description {
-   margin: 0;
-   align-self: start;
    grid-area: paragraph;
 }
