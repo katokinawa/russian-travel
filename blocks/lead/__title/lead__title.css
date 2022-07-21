@@ -13,3 +13,9 @@
       margin: 0 24px 32px;
     }
 }
+
+@media screen and (min-width: 1024px) {
+  .lead__title {
+    white-space: pre-line;
+  }
+}

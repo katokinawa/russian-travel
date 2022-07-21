@@ -25,6 +25,15 @@
   }
   .place__paragraph {
     margin: 0;
+    aling-self: start;
     grid-area: paragraph;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .place__paragraph {
+    font-size: 18px;
+    line-height: 29px;
+  }
+}
+

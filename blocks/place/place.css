@@ -13,3 +13,35 @@
       margin: 0;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .place {
+    display: grid;
+    margin-bottom: 80px;
+    gap: 48px 32px;
+    grid-template-rows: minmax(76px, 1fr);
+    grid-template-columns: minmax(440px, 1fr);
+    grid-template-areas:
+    "title url"
+    "image paragraph";
+  }
+    .place:last-child {
+      margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    display: grid;
+    margin-bottom: 80px;
+    gap: 48px 40px;
+    grid-template-rows: minmax(76px, 1fr);
+    grid-template-columns: minmax(460px, 1fr);
+    grid-template-areas:
+    "title url"
+    "image paragraph";
+  }
+    .place:last-child {
+      margin: 0;
+  }
+}

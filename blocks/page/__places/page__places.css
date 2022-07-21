@@ -8,3 +8,15 @@
   }
 
 }
+
+@media screen and (min-width: 1024px) {
+  .page__places {
+    padding: 0 48px 92px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .page__places {
+    padding: 0 148px 92px;
+  }
+}

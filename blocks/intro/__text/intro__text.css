@@ -7,3 +7,15 @@
   line-height: 26px;
   margin: 0 0 34px;
 }
+
+@media screen and (min-width: 1024px) {
+  .intro__text {
+    margin: 0 286px 33px 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__text {
+    margin: 0 442px 33px 0;
+  }
+}
