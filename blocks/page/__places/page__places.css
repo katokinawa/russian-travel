@@ -1,3 +1,10 @@
 .page__places {
   padding: 0 0 66px;
 }
+
+@media screen and (min-width: 768px) {
+  .page__places {
+    padding: 0 24px 90px;
+  }
+
+}

@@ -1,2 +1,15 @@
-.place {
+@media screen and (min-width: 768px) {
+  .place {
+    display: grid;
+    margin-bottom: 73px;
+    gap: 48px 28px;
+    grid-template-rows: minmax(46px, 1fr);
+    grid-template-columns: minmax(340px, 1fr);
+    grid-template-areas:
+    "title url"
+    "image paragraph";
+  }
+    .place:last-child {
+      margin: 0;
+  }
 }
