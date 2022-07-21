@@ -7,8 +7,10 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
+  opacity: .8;
+  transition: opacity 1s linear;
 }
 
 .place__link:hover {
-  opacity: .8;
+  opacity: .3;
 }

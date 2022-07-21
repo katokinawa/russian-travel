@@ -6,6 +6,12 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 20px;
+  opacity: .8;
+  transition: opacity 1s linear;
+}
+
+.header__lang-link:hover {
+  opacity: .3;
 }
 .header__lang-link:nth-child(1) {
   text-decoration-line: underline;

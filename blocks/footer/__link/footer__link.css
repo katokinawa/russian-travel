@@ -6,22 +6,17 @@
   font-size: 24px;
   line-height: 24px;
   text-decoration-line: none;
-  margin: 0 0 32px;
+  opacity: .8;
+  transition: opacity 1s linear;
 }
 
-.footer__link:last-child {
-  margin: 0 0 48px;
+.footer__link:hover {
+  opacity: .3;
 }
 
 @media screen and (min-width: 768px) {
   .footer__link {
-    display: inline-block;
-    box-sizing: border-box;
     font-size: 16px;
     line-height: 18px;
-    margin: 0 18px 0 0;
-  }
-  .footer__link:last-child {
-    margin: 0;
   }
 }

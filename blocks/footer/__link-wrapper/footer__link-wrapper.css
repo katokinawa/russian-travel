@@ -1,0 +1,18 @@
+.footer__link-wrapper {
+  margin: 0 0 32px;
+}
+
+.footer__link-wrapper:last-child {
+  margin: 0 0 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__link-wrapper {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0 18px 0 0;
+  }
+  .footer__link-wrapper:last-child {
+    margin: 0;
+  }
+}
