@@ -1,21 +1,21 @@
-.page__cover {
+.content__cover {
   padding: 0 0 64px;
 }
 
 @media screen and (min-width: 768px) {
-  .page__cover {
+  .content__cover {
     padding: 0 0 88px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .page__cover {
+  .content__cover {
     padding: 0 0 92px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .page__cover {
+  .content__cover {
     padding: 0 48px 92px;
   }
 }

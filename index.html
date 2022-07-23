@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="./pages/index.css">
     <title>Путешествия по России</title>
   </head>
-  <body>
+  <body class="body">
     <div class="page">
       <header class="header page__header">
         <div class="logo header__logo"></div>
         <aside class="header__lang-links">
-          <a href="#" class="header__lang-link" target="_blank">Ru</a>
-          <a href="#" class="header__lang-link" target="_blank">En</a>
+          <a href="#" class="header__lang-link header__lang-link_active" target="_blank">Ru</a>
+          <a href="#" class="header__lang-link header__lang-link_active" target="_blank">En</a>
         </aside>
       </header>
       <main class="content">
-        <section class="lead page__lead">
+        <section class="lead content__lead">
           <h1 class="title lead__title">Путешествия
             по России</h1>
           <p class="subtitle lead__subtitle">Настоящая страна не в выпусках
@@ -24,7 +24,7 @@
           <img src="./images/lead-polka.jpg" class="lead__image" alt="Девушка в плацкарте, лежит на койке, повернута спиной к камере, укрыта одеялом, поверх изображения наложена графика с путями от Пскова до Улан-Удэ.">
           <p class="lead__caption">ваша полка — верхняя</p>
         </section>
-        <section class="intro page__intro">
+        <section class="intro content__intro">
           <h2 class="title intro__title">Чего мы там не видели?</h2>
           <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
           <ul class="intro__list">
@@ -35,7 +35,7 @@
             <li>Аэропортов <span class="intro__span-accent">241</span></li>
           </ul>
         </section>
-        <section class="photo-grid page__photo-grid" aria-label="photo-grid">
+        <section class="photo-grid content__photo-grid" aria-label="photo-grid">
           <img src="./images/photo-grid-train.jpg" class="photo-grid__item" alt="В кадре окно поезда, на фоне море.">
           <img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__item" alt="Вид с птичьего полёта. Горы.">
           <img src="./images/photo-grid-tuman.jpg" class="photo-grid__item" alt="Собака на стоге сена, поле, густой туман.">
@@ -49,8 +49,8 @@
           <img src="./images/photo-grid-baikal-2.jpg" class="photo-grid__item" alt="Вид с птичьего полёта. Пляж байкала на обрыве.">
           <img src="./images/photo-grid-ergaki.jpg" class="photo-grid__item" alt="Горы.">
         </section>
-        <article class="places page__places" aria-label="places">
-          <section class="place">
+        <section class="places content__places" aria-label="places">
+          <article class="place">
             <h2 class="title place__title">Куршская
                коса
             </h2>
@@ -67,8 +67,8 @@
                 На этом Калининградская область не заканчивается. Для путешественника и исследователя там же по соседству — самая западная точка России, Балтийская коса, — и немецкое наследие россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного моря.
               </p>
             </div>
-          </section>
-          <section class="place">
+          </article>
+          <article class="place">
             <h2 class="title place__title">Кольский</h2>
             <div class="place__wrapper">
               <p class="place__url-heading">URL</p>
@@ -83,8 +83,8 @@
                 Возможно, вы смотрели Звягинцева и даже слышали историю арктического фестиваля в Териберке. Возможно, слово «Хибины» не осталось под снегом школьных воспоминаний об уроках географии. Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.
               </p>
             </div>
-          </section>
-          <section class="place">
+          </article>
+          <article class="place">
             <h2 class="title place__title">Алтай</h2>
             <div class="place__wrapper">
               <p class="place__url-heading">URL</p>
@@ -99,8 +99,8 @@
                 Климат на Алтае умеренный, поэтому ехать сюда лучше всего летом. Так вы увидите всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.
               </p>
             </div>
-          </section>
-          <section class="place">
+          </article>
+          <article class="place">
             <h2 class="title place__title">Зимний Байкал</h2>
             <div class="place__wrapper">
               <p class="place__url-heading">URL</p>
@@ -115,8 +115,8 @@
                 Конечно, это всё так. Но Байкал ещё идеальное место для соревнований по скийорингу. Это такой вид спорта, когда лыжник привязывает себяк мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.
               </p>
             </div>
-          </section>
-          <section class="place">
+          </article>
+          <article class="place">
             <h2 class="title place__title">Карелия</h2>
             <div class="place__wrapper">
               <p class="place__url-heading">URL</p>
@@ -128,9 +128,9 @@
                 Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.
               </p>
             </div>
-          </section>
-        </article>
-        <section class="cover page__cover">
+          </article>
+        </section>
+        <section class="cover content__cover">
           <a href="https://stampsy.com/na-elektrichkakh-do-baikala" class="cover__link" target="_blank">
             <h2 class="title cover__title">До&nbsp;Байкала
               &laquo;на&nbsp;собаках&raquo;</h2>
@@ -141,29 +141,29 @@
             </p>
           </a>
         </section>
-        <footer class="footer page__footer">
-            <nav>
-              <ul class="footer__links">
-                <li class="footer__link-wrapper">
-                  <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
-                </li>
-                <li class="footer__link-wrapper">
-                  <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
-                </li>
-                <li class="footer__link-wrapper">
-                  <a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
-                </li>
-                <li class="footer__link-wrapper">
-                  <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
-                </li>
-                <li class="footer__link-wrapper">
-                  <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
-                </li>
-              </ul>
-            </nav>
-            <p class="footer__copyright">&copy; 2022. Даниил Белогур</p>
-        </footer>
       </main>
+        <footer class="footer page__footer">
+          <nav>
+            <ul class="footer__links">
+              <li class="footer__link-wrapper">
+                <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
+              </li>
+              <li class="footer__link-wrapper">
+                <a href="https://yandex.ru/pogoda" class="footer__link" target="_blank">Погода</a>
+              </li>
+              <li class="footer__link-wrapper">
+                <a href="https://rasp.yandex.ru" class="footer__link" target="_blank">Расписание</a>
+              </li>
+              <li class="footer__link-wrapper">
+                <a href="https://calendar.yandex.ru" class="footer__link" target="_blank">Календарь</a>
+              </li>
+              <li class="footer__link-wrapper">
+                <a href="https://travel.yandex.ru" class="footer__link" target="_blank">Путешествия</a>
+              </li>
+            </ul>
+          </nav>
+          <p class="footer__copyright">&copy; 2022. Даниил Белогур</p>
+        </footer>
     </div>
   </body>
 </html>

@@ -1,21 +1,22 @@
-.page__places {
-  padding: 0 0 66px;
+.content__lead {
+  padding: 0 0 64px;
 }
 
 @media screen and (min-width: 768px) {
-  .page__places {
-    padding: 0 24px 90px;
+  .content__lead {
+    padding: 0 0 88px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .page__places {
-    padding: 0 48px 92px;
+  .content__lead {
+    padding: 0 48px 88px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .page__places {
+  .content__lead {
     padding: 0 148px 92px;
   }
 }
+
